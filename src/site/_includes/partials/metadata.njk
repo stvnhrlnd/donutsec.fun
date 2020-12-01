@@ -1,0 +1,25 @@
+{% set absoluteUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+
+{% if not description %}
+  {% set description = content | striptags | truncate(140) or site.tagline %}
+{% endif %}
+
+<title>{{ title + ' | ' + site.title if title else site.title }}</title>
+<meta name="description" content="{{ description }}">
+
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ absoluteUrl }}">
+<meta property="og:type" content="website">
+
+{% if metaImage %}
+  <meta property="og:image" content="{{ metaImage | url | absoluteUrl(site.url) }}">
+  {% if metaImageAlt %}
+    <meta property="og:image:alt" content="{{ metaImageAlt }}">
+    <meta name="twitter:image:alt" content="{{ metaImageAlt }}">
+  {% endif %}
+{% endif %}
+
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="{{ absoluteUrl }}">

@@ -1,0 +1,8 @@
+.c-permalink {
+  text-decoration: none;
+  visibility: hidden;
+}
+
+:hover > .c-permalink {
+  visibility: visible;
+}

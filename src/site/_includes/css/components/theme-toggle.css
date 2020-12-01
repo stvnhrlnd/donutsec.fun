@@ -1,0 +1,15 @@
+.c-theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text-colour);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  position: absolute;
+  right: var(--step--5);
+  top: var(--step--5);
+}
+
+.c-theme-toggle:hover {
+  color: var(--text-colour-offset);
+}

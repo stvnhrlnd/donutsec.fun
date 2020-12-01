@@ -1,0 +1,8 @@
+<ul class="c-tag-list">
+  {% for tag in tags -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <li>
+      <a href="{{ tagUrl | url }}" class="c-tag">{{ tag }}</a>
+    </li>
+  {%- endfor %}
+</ul>

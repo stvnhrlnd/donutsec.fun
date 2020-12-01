@@ -1,0 +1,11 @@
+.c-social-link-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-social-link-list > li {
+  margin: 0 var(--step-0);
+}

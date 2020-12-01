@@ -1,0 +1,15 @@
+.c-tag {
+  border: 1px var(--border-style) var(--border-colour);
+  border-radius: var(--step--5);
+  display: inline-block;
+  font-size: var(--step--2);
+  padding: 0 var(--step--4);
+  text-decoration: none;
+  text-transform: none;
+}
+
+.c-tag:focus {
+  border-color: var(--text-colour-offset);
+  border-style: solid;
+  outline: none;
+}

@@ -1,0 +1,7 @@
+a {
+  color: var(--text-colour);
+}
+
+a:hover {
+  color: var(--text-colour-offset);
+}

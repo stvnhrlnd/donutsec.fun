@@ -1,0 +1,14 @@
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+  {% set postList = collections.posts | limit(site.maxLatestPosts) %}
+  {% include 'partials/post-list.njk' %}
+  <p class="u-text-right">
+    <a href="{{ '/blog/' | url }}">
+      See all posts
+      <span aria-hidden="true">👀</span>
+    </a>
+  </p>
+{% endblock %}

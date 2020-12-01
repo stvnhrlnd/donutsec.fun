@@ -1,0 +1,20 @@
+<ol class="o-flow c-post-list">
+  {% for post in postList %}
+    <li>
+      <article class="o-flow c-post">
+        <h2>
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+          {% if post.data.icon %}
+            <span aria-hidden="true">{{ post.data.icon }}</span>
+          {% endif %}
+        </h2>
+        <div class="c-post__meta">
+          <time datetime="{{ post.date | datetime }}">
+            {{ post.date | datetime(site.dateFormat) }}
+          </time>
+        </div>
+        <p class="c-post__description">{{ post.data.description }}</p>
+      </article>
+    </li>
+  {% endfor %}
+</ol>

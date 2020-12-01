@@ -1,0 +1,24 @@
+:focus {
+  outline: 2px solid var(--text-colour-offset);
+  outline-offset: 0.2rem;
+}
+
+body {
+  background: var(--background-colour);
+  color: var(--text-colour);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-base);
+  font-size: var(--step-0);
+  overflow-x: hidden;
+}
+
+main {
+  flex-grow: 1;
+  padding: var(--step-0) var(--step--5) var(--step-3);
+  width: 100%;
+}
+
+main:focus {
+  outline: 0;
+}

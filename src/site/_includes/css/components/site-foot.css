@@ -1,0 +1,5 @@
+.c-site-foot {
+  background: var(--background-colour-offset);
+  border-top: var(--border-width) var(--border-style) var(--border-colour);
+  padding: var(--step-1);
+}

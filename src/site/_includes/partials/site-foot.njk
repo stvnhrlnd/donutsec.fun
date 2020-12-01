@@ -1,0 +1,34 @@
+<footer class="c-site-foot">
+  <div class="o-wrapper">
+    <ul class="c-social-link-list">
+      <li>
+        <a href="{{ '/feed.xml' | url }}">
+          <span class="u-visually-hidden">RSS Feed</span>
+          <svg class="c-icon" aria-hidden="true">
+            <use xlink:href="#icon-rss"></use>
+          </svg>
+        </a>
+      </li>
+      {% if site.socialLinks.gitHub %}
+        <li>
+          <a href="{{ site.socialLinks.gitHub }}">
+            <span class="u-visually-hidden">GitHub</span>
+            <svg class="c-icon" aria-hidden="true">
+              <use xlink:href="#icon-github"></use>
+            </svg>
+          </a>
+        </li>
+      {% endif %}
+      {% if site.socialLinks.twitter %}
+        <li>
+          <a href="{{ site.socialLinks.twitter }}">
+            <span class="u-visually-hidden">Twitter</span>
+            <svg class="c-icon" aria-hidden="true">
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</footer>

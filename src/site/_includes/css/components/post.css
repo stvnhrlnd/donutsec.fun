@@ -1,0 +1,23 @@
+.c-post {
+  --flow-space: var(--step-2);
+
+  overflow-wrap: break-word;
+}
+
+.c-post__meta {
+  --flow-space: var(--step--4);
+
+  color: var(--text-colour-offset);
+  font-size: var(--step--1);
+  overflow-x: auto;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.c-post__description {
+  --flow-space: var(--step--4);
+}
+
+.c-post__footer {
+  --flow-space: var(--step-4);
+}

@@ -1,0 +1,19 @@
+.c-pagination {
+  --flow-space: var(--step-4);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.c-pagination__previous::before {
+  content: '⬅ ';
+}
+
+.c-pagination__next {
+  margin-left: auto;
+}
+
+.c-pagination__next::after {
+  content: ' ➡';
+}

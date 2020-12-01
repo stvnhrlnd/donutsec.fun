@@ -1,0 +1,10 @@
+{% if pagination.href.previous or pagination.href.next %}
+  <div class="c-pagination">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}" class="c-pagination__previous">Newer posts</a>
+    {% endif %}
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}" class="c-pagination__next">Older posts</a>
+    {% endif %}
+  </div>
+{% endif %}

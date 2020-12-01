@@ -1,0 +1,16 @@
+<nav class="c-nav" aria-label="Site Navigation">
+  <div class="o-wrapper">
+    <ul class="c-nav__list">
+      {% for entry in collections.all | eleventyNavigation -%}
+        <li {% if entry.url == page.url %}aria-current="true"{% endif %}>
+          <a href="{{ entry.url | url }}">
+            {% if entry.icon %}
+              <span aria-hidden="true">{{ entry.icon }}</span>
+            {% endif %}
+            {{ entry.title }}
+          </a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</nav>

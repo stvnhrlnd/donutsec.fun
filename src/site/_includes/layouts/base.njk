@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="{{ '/fonts/pt-sans-v12-latin-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="{{ '/fonts/vt323-v12-latin-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin="anonymous">
+    {% include 'partials/favicon.njk' %}
+    {% include 'partials/metadata.njk' %}
+    <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="{{ site.title }}">
+    <style>
+      {{ build.css.theme | safe }}
+      {{ build.css.main | safe }}
+    </style>
+    <script>
+      {{ build.js.head | safe }}
+    </script>
+  </head>
+  <body>
+    {% include 'partials/icons/icons.html' %}
+    <a href="#main" class="c-skip-link">Skip to content</a>
+    {% include 'partials/site-head.njk' %}
+    {% include 'partials/nav.njk' %}
+    <main id="main" class="o-wrapper o-flow" tabindex="-1">
+      {% block content %}{% endblock %}
+    </main>
+    {% include 'partials/site-foot.njk' %}
+    <script type="module" async="async">
+      {{ build.js.main | safe }}
+    </script>
+    <theme-toggle></theme-toggle>
+  </body>
+</html>

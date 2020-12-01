@@ -1,0 +1,9 @@
+.c-post-list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.c-post-list > li {
+  --flow-space: var(--step-2);
+}

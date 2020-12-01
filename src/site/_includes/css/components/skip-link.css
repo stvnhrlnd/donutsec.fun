@@ -1,0 +1,19 @@
+.c-skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c-skip-link:focus {
+  background-color: var(--text-colour);
+  color: var(--background-colour);
+  font-size: var(--step--1);
+  padding: var(--step--4) var(--step--1);
+  position: absolute;
+}

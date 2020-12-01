@@ -1,0 +1,17 @@
+.c-embed {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 60%;
+  position: relative;
+}
+
+.c-embed > embed,
+.c-embed > iframe,
+.c-embed > object {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

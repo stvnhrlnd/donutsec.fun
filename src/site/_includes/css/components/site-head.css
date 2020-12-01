@@ -1,0 +1,17 @@
+.c-site-head {
+  background-color: var(--background-colour);
+  background-image: var(--background-pattern-image);
+  padding-bottom: var(--step-0);
+}
+
+.c-site-head__title {
+  font-family: var(--font-decorative);
+  font-size: var(--step-8);
+  font-weight: bold;
+  line-height: normal;
+  text-decoration-skip-ink: none;
+}
+
+.c-site-head__tagline {
+  margin-right: var(--step--5);
+}

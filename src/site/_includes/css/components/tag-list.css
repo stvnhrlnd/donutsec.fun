@@ -1,0 +1,11 @@
+.c-tag-list {
+  display: inline-block;
+  margin: 0 var(--step--4);
+  padding: 0;
+  vertical-align: text-bottom;
+}
+
+.c-tag-list > li {
+  display: inline-block;
+  margin-right: var(--step--5);
+}

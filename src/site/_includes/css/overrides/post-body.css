@@ -1,0 +1,35 @@
+.s-post-body > h2 + *,
+.s-post-body > h3 + *,
+.s-post-body > ol,
+.s-post-body > ul {
+  --flow-space: var(--step-0);
+}
+
+.s-post-body > figure,
+.s-post-body > pre[class*='language-'],
+.s-post-body > .c-embed {
+  margin-left: 50%;
+  max-width: calc(var(--fluid-screen) + var(--step-8));
+  transform: translateX(-50%);
+  width: 100vw;
+}
+
+.s-post-body > pre[class*='language-'] {
+  background-size: 16px;
+  margin-top: var(--flow-space);
+}
+
+.s-post-body > figure > img,
+.s-post-body > pre[class*='language-'],
+.s-post-body > .c-embed {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.s-post-body figcaption {
+  color: var(--text-colour-offset);
+  font-size: var(--step--1);
+  font-style: italic;
+  margin: auto;
+  max-width: var(--fluid-screen);
+  padding: var(--step--2) var(--step-0);
+}

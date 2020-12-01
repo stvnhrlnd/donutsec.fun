@@ -1,0 +1,17 @@
+{
+  "url": "https://donutsec.fun/",
+  "icon": "🍩",
+  "title": "DonutSec",
+  "tagline": "Sugar-fueled InfoSec adventures",
+  "taglineIcon": "🔓",
+  "dateFormat": "d LLLL yyyy",
+  "maxLatestPosts": 2,
+  "defaultAuthor": {
+    "name": "Steven Harland",
+    "link": "https://twitter.com/stvnhrlnd"
+  },
+  "socialLinks": {
+    "gitHub": "https://github.com/DonutSec",
+    "twitter": "https://twitter.com/stvnhrlnd"
+  }
+}
