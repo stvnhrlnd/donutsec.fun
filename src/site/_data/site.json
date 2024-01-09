@@ -2,8 +2,8 @@
   "url": "https://donutsec.fun/",
   "icon": "🍩",
   "title": "DonutSec",
-  "tagline": "Sugar-fueled InfoSec adventures",
-  "taglineIcon": "🔓",
+  "tagline": "Hosting one blog post since 2020",
+  "taglineIcon": "👀",
   "dateFormat": "d LLLL yyyy",
   "maxLatestPosts": 2,
   "defaultAuthor": {
