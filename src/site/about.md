@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-DonutSec was masterminded by Steven Harland in Autumn 2020 during a very sober second lockdown in the UK. An outlet for cyber security research, it is the result of far too many sweet treats and a compulsion to overuse emojis.
+I like donuts and I work in InfoSec. It's a strange kind of hell.
 
 {% include 'partials/heaven.html' %}
 
@@ -15,7 +15,7 @@ DonutSec was masterminded by Steven Harland in Autumn 2020 during a very sober s
 
 "Your privacy is important to us." 🙃
 
-This website will not track you, but if you change the theme your preference will be saved in [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) -- that's it!
+This site will not track you, but if you change the theme your preference will be saved in [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) -- that's it!
 
 ## Licensing
 
@@ -23,7 +23,7 @@ Except where otherwise noted, the content of this site is licensed under the [CC
 
 ## Colophon
 
-Site built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com/).
+Built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com/).
 
 - **Fonts**: [VT323](https://fonts.google.com/specimen/VT323), [PT Sans](https://fonts.google.com/specimen/PT+Sans)
 - **Fluid type scale**: [Utopia](https://utopia.fyi/)
