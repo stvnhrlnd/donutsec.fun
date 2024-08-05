@@ -8,10 +8,10 @@
   "maxLatestPosts": 2,
   "defaultAuthor": {
     "name": "Steven Harland",
-    "link": "https://twitter.com/stvnhrlnd"
+    "link": "https://umbracocommunity.social/@stvnhrlnd"
   },
   "socialLinks": {
-    "gitHub": "https://github.com/DonutSec",
+    "gitHub": "https://github.com/stvnhrlnd",
     "twitter": "https://twitter.com/stvnhrlnd"
   }
 }
