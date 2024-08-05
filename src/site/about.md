@@ -25,6 +25,7 @@ Except where otherwise noted, the content of this site is licensed under the [CC
 
 Built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com/).
 
+- **Design (inspired by|stolen from)**: [eleventy-dot-js-blog](https://eleventy-dot-js-blog.netlify.app/)
 - **Fonts**: [VT323](https://fonts.google.com/specimen/VT323), [PT Sans](https://fonts.google.com/specimen/PT+Sans)
 - **Fluid type scale**: [Utopia](https://utopia.fyi/)
 - **Backgrounds**: [Hero Patterns](http://www.heropatterns.com/)
