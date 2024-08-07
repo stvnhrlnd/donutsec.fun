@@ -179,7 +179,7 @@ sudo apt-get install -y dotnet-sdk-8.0
 
 For other .NET versions and Linux distros see the ["Install .NET on Linux" docs](https://learn.microsoft.com/en-us/dotnet/core/install/linux).
 
-Use the following command to verify that you have the correct of the SDK installed (at least .NET 7):
+Use the following command to verify that you have the correct of the SDK installed (at least .NET 8):
 
 ```shell
 dotnet --list-sdks
@@ -205,14 +205,14 @@ Then we can install Node.js (20 is the LTS version as I am writing this):
 nvm install 20
 ```
 
-Verify that the installation was successful and you have the correct versions installed (at least Node.js 14 and npm 7):
+Verify that the installation was successful and you have the correct version installed (at least Node.js 20):
 
 ```shell
 node -v
 npm -v
 ```
 
-Refer to the ["Umbraco CMS Build" doc](https://github.com/umbraco/Umbraco-CMS/blob/contrib/.github/BUILD.md) for information like minimum .NET and Node.js versions.
+Refer to the Umbraco [Requirements doc](https://docs.umbraco.com/umbraco-cms/fundamentals/setup/requirements#local-development) for information like minimum .NET and Node.js versions.
 
 ### Get the Source Code
 
