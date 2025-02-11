@@ -2,8 +2,8 @@
   "url": "https://donutsec.fun/",
   "icon": "🍩",
   "title": "DonutSec",
-  "tagline": "Next blog post expected in 2028",
-  "taglineIcon": "😶‍🌫️",
+  "tagline": "0days since last incident",
+  "taglineIcon": "⚠️",
   "dateFormat": "d LLLL yyyy",
   "maxLatestPosts": 2,
   "defaultAuthor": {
