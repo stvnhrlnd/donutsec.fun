@@ -33,4 +33,4 @@ Built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www
 - **Syntax highlighting**: [Prism](https://prismjs.com/)
 - **Simpsons GIF**: [Giphy](http://gph.is/1MxgWaH)
 
-Full source code available on [GitHub](https://github.com/DonutSec/donutsec.fun).
+Full source code available on [GitHub](https://github.com/stvnhrlnd/donutsec.fun).
