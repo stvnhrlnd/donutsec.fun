@@ -27,9 +27,12 @@
     <div class="o-flow s-post-body">
       {{ content | safe }}
     </div>
-    <footer class="c-post__footer c-post__meta">
-      Filed under:
-      {% include 'partials/tag-list.njk' %}
+    <footer class="o-flow c-post__footer c-post__meta">
+      <div>{% include 'partials/human.njk' %}</div>
+      <div>
+        Filed under:
+        {% include 'partials/tag-list.njk' %}
+      </div>
     </footer>
   </article>
 {% endblock %}

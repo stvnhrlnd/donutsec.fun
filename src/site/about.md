@@ -32,5 +32,6 @@ Built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www
 - **Icons**: [IcoMoon](https://icomoon.io/)
 - **Syntax highlighting**: [Prism](https://prismjs.com/)
 - **Simpsons GIF**: [Giphy](http://gph.is/1MxgWaH)
+- **"written by a human" badge**: [Andy Carolan](https://ko-fi.com/s/4662b19f61)
 
 Full source code available on [GitHub](https://github.com/stvnhrlnd/donutsec.fun).
